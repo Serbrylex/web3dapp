@@ -28,9 +28,9 @@ import {
             align={{ base: "center", md: "center" }}
           >
             <Text>
-              © {new Date().getFullYear()} Original designs by
-              <Link ml={1} href="https://twitter.com/pablostanley">
-                Pablo Stanley 🎨
+              © {new Date().getFullYear()} Developed by
+              <Link ml={1} href="https://serbrylex.com">
+                Sergio Bryan
               </Link>
             </Text>
           </Container>
