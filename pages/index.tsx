@@ -153,7 +153,7 @@ const Home = () => {
         position={"relative"}
         w={"full"}
       >
-        <Image src={active ? imageSrc : "https://avataaars.io/"} />
+        <Image src={active ? imageSrc : "https://avataaars.io/"} alt='default avaatar' />
         {active ? (
           <>
             <Flex mt={2}>
@@ -202,3 +202,9 @@ const Home = () => {
 };
 
 export default Home;
+
+/*
+  curl "https://ipfs.infura.io:5001/api/v0/add?pin=true&cid-version=1" -X 
+  POST -H "Content-Type: multipart/form-data" 
+  -F file="Never stop learning"
+*/

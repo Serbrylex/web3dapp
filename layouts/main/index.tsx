@@ -25,7 +25,7 @@ import {
     },
   ];
   
-  const MainLayout = ({ children }) => {
+  const MainLayout = ({ children }:{ children: JSX.Element }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
   
     return (
@@ -82,7 +82,7 @@ import {
             <Box pb={4} display={{ md: "none" }}>
               <Stack as={"nav"} spacing={4}>
                 {Links.map(({ name, to }) => (
-                  <NavLink key={name} to={to}>
+                  <NavLink key={name} href={to}>
                     {name}
                   </NavLink>
                 ))}

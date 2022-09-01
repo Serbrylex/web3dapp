@@ -52,11 +52,10 @@ const WalletData = () => {
             <TagLabel>
               <Link href="/punks">{truncatedAddress}</Link>
             </TagLabel>
-            <Badge
-              d={{
-                base: "none",
-                md: "block",
-              }}
+            <Badge              
+                
+              display= "block"
+              
               variant="solid"
               fontSize="0.8rem"
               ml={1}
